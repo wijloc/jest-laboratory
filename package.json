@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "name": "jest-laboratory",
+  "version": "1.0.0",
+  "description": "learn and practice jest",
+  "main": "index.js",
+  "repository": "git@github.com:wijloc/jest-laboratory.git",
+  "author": "Willian Jorge <willian.jorge@g.globo>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  },
+  "scripts": {
+    "test": "yarn node --experimental-vm-modules $(yarn bin jest)"
+  }
+}
